@@ -19,7 +19,7 @@ KERNELDIR="$(dirname "$COMPILERDIR")"/ElementalQ;
 OUTDIR=$COMPILERDIR/Elemental_Q_Compiled;
 FLASHDIR=$COMPILERDIR/Elemental_Q_Flashable;
 OWNER=$(stat -c '%U' "$COMPILERDIR");
-ELEVERSION="4.10."
+ELEVERSION="4.11"
 CORES=$(cat /proc/cpuinfo | awk '/^processor/{print $3}' | wc -l);
 
 # Set which toolchain you want to use.  right now, only uber, and google are valid
